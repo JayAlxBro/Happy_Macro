@@ -55,7 +55,6 @@
 
     <ImageView
         android:id="@+id/rectimage4"
-
         android:layout_width="360dp"
         android:layout_height="40dp"
         android:contentDescription="@string/password"
@@ -70,65 +69,52 @@
         app:layout_constraintVertical_bias="0.667" />
 
     <ImageView
-        android:id="@+id/halfRect1"
-        android:layout_width="95dp"
-        android:layout_height="47dp"
+        android:id="@+id/rectimage5"
+        android:layout_width="360dp"
+        android:layout_height="40dp"
         android:contentDescription="@string/passwordagain"
         android:src="@drawable/rectangle"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.079"
+        app:layout_constraintHorizontal_bias="0.47"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.761" />
+        app:layout_constraintVertical_bias="0.762" />
 
-    <ImageView
-        android:id="@+id/halfRect2"
-        android:layout_width="95dp"
-        android:layout_height="47dp"
-        android:contentDescription="@string/passwordagain"
-        android:src="@drawable/rectangle"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.515"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.761" />
-
-    <ImageView
-        android:id="@+id/halfRect3"
-        android:layout_width="95dp"
-        android:layout_height="47dp"
-        android:contentDescription="@string/passwordagain"
-        android:src="@drawable/rectangle"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.914"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.761" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
         android:fontFamily="@font/croissantone"
         android:onClick="nextButtonClick"
         android:text="@string/next"
         android:textColor="#0D2A55"
-        android:background="@android:color/transparent"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.911"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.862" />
+        app:layout_constraintVertical_bias="0.867" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/croissantone"
+        android:onClick="backButtonClick"
+        android:text="@string/Previous"
+        android:textColor="#0D2A55"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.158"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.867" />
 
     <TextView
 
@@ -204,4 +190,3 @@
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
-

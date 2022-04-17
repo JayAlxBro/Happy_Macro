@@ -5,4 +5,20 @@
     <string name="title_notifications">Notifications</string>
     <string name="button_text">sign up</string>
     <string name="title_activity_goal2">goal2</string>
+    <string name="first_name">first name</string>
+    <string name="last_name">last name</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="passwordagain">passwordagain</string>
+    <string name="we_can_do_this">We can do this,</string>
+    <string name="but_we_need_a_little_info">but we need a little info</string>
+    <string name="macro">Macro</string>
+    <string name="happy">Happy</string>
+    <string name="next">next</string>
+    <string name="we_are_happy_to_see_you">We are happy to see you</string>
+    <string name="welcome">Welcome</string>
+    <string name="red_circle">red circle</string>
+    <string name="back">back</string>
+    <string name="Previous">Previous</string>
+    <string name="title_activity_homepage">Homepage</string>
 </resources>
