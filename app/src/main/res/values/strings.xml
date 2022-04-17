@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Happy Macro</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="button_text">sign up</string>
+    <string name="title_activity_goal2">goal2</string>
+</resources>
