@@ -55,6 +55,7 @@
 
     <ImageView
         android:id="@+id/rectimage4"
+
         android:layout_width="360dp"
         android:layout_height="40dp"
         android:contentDescription="@string/password"
