@@ -10,6 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HappyMacro">
         <activity
+            android:name=".Homepage"
+            android:exported="false"
+            android:label="@string/title_activity_homepage" />
+        <activity
+            android:name=".little_info"
+            android:exported="false" />
+        <activity
             android:name=".goal"
             android:exported="false"
             android:label="@string/title_activity_goal2" />

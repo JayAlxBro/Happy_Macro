@@ -8,15 +8,19 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
     public static final String EXTRA_MESSAGE = "com.example.myfirstapp.MESSAGE";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
 
-    /** Called when the user taps the Send button */
+    /**
+     * Called when the user taps the Sign Up button
+     */
     public void onSignUpButtonClick(View view) {
-        Intent intent = new Intent(this, goal.class);
+        Intent intent = new Intent(this, little_info.class);
         startActivity(intent);
     }
 }
+
