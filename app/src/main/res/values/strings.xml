@@ -21,4 +21,6 @@
     <string name="back">back</string>
     <string name="Previous">Previous</string>
     <string name="title_activity_homepage">Homepage</string>
+    <string name="radio_male">Male</string>
+    <string name="radio_female">Female</string>
 </resources>
