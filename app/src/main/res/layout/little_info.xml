@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"    xmlns:app="http://schemas.android.com/apk/res-auto"    xmlns:tools="http://schemas.android.com/tools"    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".little_info"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main_constraintlayout"
-    android:background="@drawable/gradient_background">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".little_info">
 
 
     <ImageView
@@ -45,13 +48,12 @@
         android:src="@drawable/rectangle"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintHorizontal_bias="0.509"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.573" />
-
 
     <ImageView
         android:id="@+id/rectimage4"
@@ -69,20 +71,19 @@
         app:layout_constraintVertical_bias="0.667" />
 
     <ImageView
-        android:id="@+id/rectimage5"
-        android:layout_width="360dp"
-        android:layout_height="40dp"
+        android:id="@+id/halfRect1"
+        android:layout_width="359dp"
+        android:layout_height="48dp"
         android:contentDescription="@string/passwordagain"
         android:src="@drawable/rectangle"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintHorizontal_bias="0.338"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.762" />
-
+        app:layout_constraintVertical_bias="0.767" />
 
     <Button
         android:layout_width="wrap_content"
@@ -94,27 +95,11 @@
         android:textColor="#0D2A55"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.911"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.867" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@android:color/transparent"
-        android:fontFamily="@font/croissantone"
-        android:onClick="backButtonClick"
-        android:text="@string/Previous"
-        android:textColor="#0D2A55"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.158"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.867" />
+        app:layout_constraintVertical_bias="0.862" />
 
     <TextView
 
@@ -122,8 +107,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/croissantone"
-        android:textColor="#0D2A55"
         android:text="@string/we_can_do_this"
+        android:textColor="#0D2A55"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -156,8 +141,8 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="40dp"
         android:fontFamily="@font/croissantone"
-        android:textColor="#0D2A55"
         android:text="@string/macro"
+        android:textColor="#0D2A55"
         android:textSize="48sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -173,12 +158,12 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="36dp"
         android:fontFamily="@font/craftygirls"
-        android:textColor="#0D2A55"
         android:shadowColor="#0D2A55"
         android:shadowDx="2"
         android:shadowDy="2"
         android:shadowRadius="2"
         android:text="@string/happy"
+        android:textColor="#0D2A55"
         android:textSize="48sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.069"
@@ -188,5 +173,113 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.092" />
 
+    <EditText
+        android:id="@+id/currentWeight"
+        android:layout_width="359dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="20dp"
+        android:ems="10"
+        android:fontFamily="@font/croissantone"
+        android:inputType="textPersonName"
+        android:text="Current Weight"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/rectimage2"
+        app:layout_constraintEnd_toEndOf="@+id/rectimage1"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rectimage1"
+        app:layout_constraintVertical_bias="1.0"
+        tools:visibility="visible" />
 
+    <EditText
+        android:id="@+id/goalWeight"
+        android:layout_width="359dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginBottom="18dp"
+        android:ems="10"
+        android:fontFamily="@font/croissantone"
+        android:inputType="textPersonName"
+        android:text="Goal Weight"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/rectimage3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/currentWeight"
+        tools:visibility="visible" />
+
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="359dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="17dp"
+        android:ems="10"
+        android:fontFamily="@font/croissantone"
+        android:inputType="textPersonName"
+        android:text="Age"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/rectimage4"
+        app:layout_constraintEnd_toEndOf="@+id/rectimage3"
+        app:layout_constraintStart_toStartOf="@+id/rectimage3"
+        app:layout_constraintTop_toBottomOf="@+id/goalWeight"
+        tools:visibility="visible" />
+
+    <EditText
+        android:id="@+id/height"
+        android:layout_width="359dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="17dp"
+        android:ems="10"
+        android:fontFamily="@font/croissantone"
+        android:inputType="textPersonName"
+        android:text="Height"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/halfRect1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/age"
+        tools:visibility="visible" />
+
+    <RadioGroup
+        android:id="@+id/radioSex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="@+id/halfRect1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/halfRect1">
+
+
+        <RadioButton
+            android:id="@+id/radioFemale"
+            android:layout_width="88dp"
+            android:layout_height="48dp"
+            android:text="@string/radio_female"
+            tools:layout_editor_absoluteX="96dp"
+            tools:layout_editor_absoluteY="526dp" />
+
+        <RadioButton
+            android:id="@+id/radioMale"
+            android:layout_width="95dp"
+            android:layout_height="48dp"
+            android:checked="true"
+            android:text="@string/radio_male"
+            tools:layout_editor_absoluteX="213dp"
+            tools:layout_editor_absoluteY="529dp" />
+    </RadioGroup>
 </androidx.constraintlayout.widget.ConstraintLayout>
+

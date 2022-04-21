@@ -11,7 +11,7 @@ public class little_info extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_little_info);
+        setContentView(R.layout.little_info);
     }
 
     /** Called when the user taps the Next button */
