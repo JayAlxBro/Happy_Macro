@@ -3,6 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/rcrie/AndroidStudioProjects/Happy_Macro/app/src/main/res/drawable/circle.xml" value="0.304" />
+        <entry key="..\:/Users/rcrie/AndroidStudioProjects/Happy_Macro/app/src/main/res/layout/activity_homepage.xml" value="0.30052083333333335" />
+        <entry key="..\:/Users/rcrie/AndroidStudioProjects/Happy_Macro/app/src/main/res/layout/activity_little_info.xml" value="0.23324275362318841" />
+        <entry key="..\:/Users/rcrie/AndroidStudioProjects/Happy_Macro/app/src/main/res/layout/activity_main.xml" value="0.30052083333333335" />
+        <entry key="..\:/Users/rcrie/AndroidStudioProjects/Happy_Macro/app/src/main/res/layout/fragment_dashboard.xml" value="0.30052083333333335" />
+        <entry key="..\:/Users/rcrie/AndroidStudioProjects/Happy_Macro/app/src/main/res/layout/fragment_home.xml" value="0.30052083333333335" />
+        <entry key="..\:/Users/rcrie/AndroidStudioProjects/Happy_Macro/app/src/main/res/layout/fragment_notifications.xml" value="0.30052083333333335" />
+        <entry key="..\:/Users/rcrie/AndroidStudioProjects/Happy_Macro/app/src/main/res/layout/goal.xml" value="0.30052083333333335" />
+        <entry key="..\:/Users/rcrie/AndroidStudioProjects/Happy_Macro/app/src/main/res/layout/layout.xml" value="0.30052083333333335" />
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1995" />
         <entry key="app/src/main/res/drawable/circle.xml" value="0.254" />
         <entry key="app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.1995" />
@@ -21,6 +30,7 @@
         <entry key="app/src/main/res/layout/goal.xml" value="0.335" />
         <entry key="app/src/main/res/layout/goal2.xml" value="0.18110435663627153" />
         <entry key="app/src/main/res/layout/layout.xml" value="0.27853260869565216" />
+        <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.378125" />
       </map>
     </option>
   </component>

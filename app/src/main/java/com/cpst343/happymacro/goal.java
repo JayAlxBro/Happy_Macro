@@ -1,25 +1,27 @@
 package com.cpst343.happymacro;
 
+import android.content.Intent;
 import android.os.Bundle;
-
-import com.google.android.material.bottomnavigation.BottomNavigationView;
-
+import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.navigation.NavController;
-import androidx.navigation.Navigation;
-import androidx.navigation.ui.AppBarConfiguration;
-import androidx.navigation.ui.NavigationUI;
-
-import com.cpst343.happymacro.databinding.GoalBinding;
 
 public class goal extends AppCompatActivity {
 
-    private GoalBinding binding;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.goal);
+    }
 
-         }
+    public void backButtonClick(View view) {
+        Intent intent = new Intent(this, little_info.class);
+        startActivity(intent);
+    }
 
+    public void nextButtonClick(View view) {
+        Intent intent = new Intent(this, Homepage.class);
+        startActivity(intent);
+    }
 }
