@@ -10,6 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HappyMacro">
         <activity
+            android:name=".Tracker"
+            android:exported="false"
+            android:label="@string/title_activity_tracker"
+            android:theme="@style/Theme.HappyMacro.NoActionBar" />
+        <activity
             android:name=".Homepage"
             android:exported="false"
             android:label="@string/title_activity_homepage" />
