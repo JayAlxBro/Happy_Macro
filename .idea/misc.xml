@@ -27,6 +27,10 @@
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main_goal.xml" value="0.22847011144883486" />
         <entry key="app/src/main/res/layout/activity_main_info_page.xml" value="0.11666666666666667" />
+        <entry key="app/src/main/res/layout/activity_tracker.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/content_tracker.xml" value="0.46979166666666666" />
+        <entry key="app/src/main/res/layout/fragment_first.xml" value="0.46979166666666666" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.40520833333333334" />
         <entry key="app/src/main/res/layout/goal.xml" value="0.335" />
         <entry key="app/src/main/res/layout/goal2.xml" value="0.18110435663627153" />
         <entry key="app/src/main/res/layout/layout.xml" value="0.27853260869565216" />
