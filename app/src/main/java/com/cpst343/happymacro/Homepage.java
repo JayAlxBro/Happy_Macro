@@ -12,6 +12,7 @@ import androidx.navigation.ui.NavigationUI;
 
 import com.cpst343.happymacro.databinding.ActivityHomepageBinding;
 
+/*
 public class Homepage extends AppCompatActivity {
 
     private ActivityHomepageBinding binding;
@@ -34,4 +35,4 @@ public class Homepage extends AppCompatActivity {
         NavigationUI.setupWithNavController(binding.navView, navController);
     }
 
-}
+}*/

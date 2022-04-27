@@ -1,26 +1,22 @@
 package com.cpst343.happymacro;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import androidx.appcompat.app.AppCompatActivity;
 
-public class goal extends AppCompatActivity {
+public class SummaryActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.goal);
+        setContentView(R.layout.activity_summary);
     }
 
-    public void backButtonClick(View view) {
+    public void userInfo(View view) {
         Intent intent = new Intent(this, little_info.class);
         startActivity(intent);
-    }
 
-    public void summaryButtonClick(View view) {
-        Intent intent = new Intent(this, SummaryActivity.class);
-        startActivity(intent);
     }
-
 }

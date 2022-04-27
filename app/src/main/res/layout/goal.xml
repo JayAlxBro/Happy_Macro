@@ -100,12 +100,13 @@
         app:layout_constraintVertical_bias="0.768" />
 
     <Button
+        android:id="@+id/summaryButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@android:color/transparent"
         android:fontFamily="@font/croissantone"
-        android:onClick="nextButtonClick"
-        android:text="@string/next"
+        android:onClick="summaryButtonClick"
+        android:text="@string/Summary"
         android:textColor="#0D2A55"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -116,6 +117,7 @@
         app:layout_constraintVertical_bias="0.867" />
 
     <Button
+        android:id="@+id/previewButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@android:color/transparent"

@@ -31,4 +31,20 @@
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="tracker">Tracker</string>
+    <string name="account">Account</string>
+    <string name="eggs_scrambled">Eggs (Scrambled)</string>
+    <string name="wheat_toast_plain">Wheat Toast (Plain)</string>
+    <string name="black_coffee">Black Coffee</string>
+    <string name="item">Item</string>
+    <string name="dashboard_messsage">dashboard</string>
+    <string name="hey_john">hey john</string>
+    <string name="lets_do_this">"let's do this "</string>
+    <string name="keep_going">"keep going "</string>
+    <string name="almost_there">almost there</string>
+    <string name="one_more_left">"one more left "</string>
+    <string name="you_did_it">"you did it "</string>
+    <string name="food_summary">"food summary "</string>
+    <string name="user">user</string>
+    <string name="Summary">Summary</string>
+    <string name="title_activity_summary">SummaryActivity</string>
 </resources>
