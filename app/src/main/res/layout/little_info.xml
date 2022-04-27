@@ -10,81 +10,8 @@
     tools:context=".little_info">
 
 
-    <ImageView
-        android:id="@+id/rectimage1"
-        android:layout_width="360dp"
-        android:layout_height="40dp"
-        android:contentDescription="@string/first_name"
-        android:src="@drawable/rectangle"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.47"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.396" />
-
-    <ImageView
-        android:id="@+id/rectimage2"
-        android:layout_width="360dp"
-        android:layout_height="40dp"
-        android:contentDescription="@string/last_name"
-        android:src="@drawable/rectangle"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.49"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.486" />
-
-    <ImageView
-        android:id="@+id/rectimage3"
-        android:layout_width="360dp"
-        android:layout_height="40dp"
-        android:contentDescription="@string/email"
-        android:src="@drawable/rectangle"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.509"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.573" />
-
-    <ImageView
-        android:id="@+id/rectimage4"
-        android:layout_width="360dp"
-        android:layout_height="40dp"
-        android:contentDescription="@string/password"
-        android:src="@drawable/rectangle"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.47"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.667" />
-
-    <ImageView
-        android:id="@+id/halfRect1"
-        android:layout_width="359dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="27dp"
-        android:layout_marginEnd="26dp"
-        android:contentDescription="@string/passwordagain"
-        android:src="@drawable/rectangle"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.767" />
-
     <Button
+        android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@android:color/transparent"
@@ -98,7 +25,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.862" />
+        app:layout_constraintVertical_bias="0.884" />
 
     <TextView
 
@@ -111,11 +38,12 @@
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.453"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.251" />
+        app:layout_constraintVertical_bias="0.183" />
 
     <TextView
         android:id="@+id/welcome2"
@@ -127,18 +55,17 @@
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.321" />
+        app:layout_constraintVertical_bias="0.251" />
 
     <TextView
         android:id="@+id/macro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="40dp"
+        android:layout_marginEnd="48dp"
         android:fontFamily="@font/croissantone"
         android:text="@string/macro"
         android:textColor="#0D2A55"
@@ -149,13 +76,13 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.092" />
+        app:layout_constraintVertical_bias="0.075" />
 
     <TextView
         android:id="@+id/happy"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="36dp"
+        android:layout_marginStart="32dp"
         android:fontFamily="@font/craftygirls"
         android:shadowColor="#0D2A55"
         android:shadowDx="2"
@@ -170,121 +97,133 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.092" />
+        app:layout_constraintVertical_bias="0.074" />
+
 
     <EditText
-        android:id="@+id/currentWeight"
-        android:layout_width="359dp"
+        android:id="@+id/name"
+        android:layout_width="360dp"
         android:layout_height="48dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginEnd="24dp"
-        android:layout_marginBottom="20dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="58dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="1dp"
+        android:background="#FFF9EC"
+        android:backgroundTint="#FFF9EC"
         android:ems="10"
         android:fontFamily="@font/croissantone"
+        android:hint="@string/name"
         android:inputType="textPersonName"
-        android:text="Current Weight"
-        android:textColor="#FF000000"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FF000000"
+        android:textColorHint="#546E7A"
         android:visibility="visible"
-        app:layout_constraintBottom_toTopOf="@+id/rectimage2"
-        app:layout_constraintEnd_toEndOf="@+id/rectimage1"
+        app:layout_constraintBottom_toTopOf="@+id/age"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/rectimage1"
-        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintTop_toBottomOf="@+id/welcome2"
         tools:visibility="visible" />
 
     <EditText
-        android:id="@+id/goalWeight"
-        android:layout_width="359dp"
+        android:id="@+id/currentWeight"
+        android:layout_width="360dp"
         android:layout_height="48dp"
-        android:layout_marginTop="18dp"
-        android:layout_marginBottom="18dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="7dp"
+        android:background="#FFF9EC"
+        android:backgroundTint="#FFF9EC"
         android:ems="10"
         android:fontFamily="@font/croissantone"
-        android:textColor="#FF000000"
+        android:hint="@string/current_weight"
         android:inputType="textPersonName"
-        android:text="Goal Weight"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FF000000"
+        android:textColorHint="#546E7A"
         android:visibility="visible"
-        app:layout_constraintBottom_toTopOf="@+id/rectimage3"
+        app:layout_constraintBottom_toTopOf="@+id/goalWeight"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/currentWeight"
+        app:layout_constraintTop_toBottomOf="@+id/height"
         tools:visibility="visible" />
 
     <EditText
         android:id="@+id/age"
-        android:layout_width="359dp"
+        android:layout_width="360dp"
         android:layout_height="48dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginBottom="17dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="7dp"
+        android:background="#FFF9EC"
+        android:backgroundTint="#FFF9EC"
         android:ems="10"
         android:fontFamily="@font/croissantone"
+        android:hint="@string/age"
         android:inputType="textPersonName"
-        android:textColor="#FF000000"
-        android:text="Age"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:visibility="visible"
-        app:layout_constraintBottom_toTopOf="@+id/rectimage4"
-        app:layout_constraintEnd_toEndOf="@+id/rectimage3"
-        app:layout_constraintStart_toStartOf="@+id/rectimage3"
-        app:layout_constraintTop_toBottomOf="@+id/goalWeight"
+        android:textColor="#FF000000"
+        android:textColorHint="#546E7A"
+        app:layout_constraintBottom_toTopOf="@+id/height"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name"
         tools:visibility="visible" />
 
     <EditText
         android:id="@+id/height"
-        android:layout_width="359dp"
+        android:layout_width="360dp"
         android:layout_height="48dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="7dp"
         android:layout_marginEnd="26dp"
-        android:layout_marginBottom="17dp"
+        android:layout_marginBottom="7dp"
+        android:background="#FFF9EC"
+        android:backgroundTint="#FFF9EC"
         android:ems="10"
         android:fontFamily="@font/croissantone"
-        android:textColor="#FF000000"
+        android:hint="@string/height"
         android:inputType="textPersonName"
-        android:text="Height"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:visibility="visible"
-        app:layout_constraintBottom_toTopOf="@+id/halfRect1"
+        android:textColor="#FF000000"
+        android:textColorHint="#546E7A"
+        app:layout_constraintBottom_toTopOf="@+id/currentWeight"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/age"
         tools:visibility="visible" />
 
-    <RadioGroup
-        android:id="@+id/radioSex"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintBottom_toBottomOf="@+id/halfRect1"
+    <EditText
+        android:id="@+id/goalWeight"
+        android:layout_width="360dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="64dp"
+        android:background="#FFF9EC"
+        android:backgroundTint="#FFF9EC"
+        android:ems="10"
+        android:fontFamily="@font/croissantone"
+        android:hint="@string/goal_weight"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FF000000"
+        android:textColorHint="#546E7A"
+        app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/halfRect1">
+        app:layout_constraintTop_toBottomOf="@+id/currentWeight"
+        tools:visibility="visible" />
 
 
-        <RadioButton
-            android:id="@+id/radioFemale"
-            android:layout_width="88dp"
-            android:layout_height="48dp"
-            android:text="@string/radio_female"
-            android:textColor="#FF000000"
-            tools:layout_editor_absoluteX="96dp"
-            tools:layout_editor_absoluteY="526dp" />
-
-        <RadioButton
-            android:id="@+id/radioMale"
-            android:layout_width="95dp"
-            android:layout_height="48dp"
-            android:checked="true"
-            android:textColor="#FF000000"
-            android:text="@string/radio_male"
-            tools:layout_editor_absoluteX="213dp"
-            tools:layout_editor_absoluteY="529dp" />
-    </RadioGroup>
 </androidx.constraintlayout.widget.ConstraintLayout>
 
