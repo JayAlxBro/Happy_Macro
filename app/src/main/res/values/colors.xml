@@ -10,5 +10,6 @@
     <color name="fireTruck">#D73C23</color>
     <color name="orange">#E96F3D</color>
     <color name="dreamscicle">#EEA76F</color>
+    <color name="colorAccent">#F44336</color>
 
 </resources>
