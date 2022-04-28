@@ -3,6 +3,7 @@ package com.cpst343.happymacro;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+
 import androidx.appcompat.app.AppCompatActivity;
 
 public class goal extends AppCompatActivity {
@@ -18,7 +19,7 @@ public class goal extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void summaryButtonClick(View view) {
+    public void nextButtonClick(View view) {
         Intent intent = new Intent(this, SummaryActivity.class);
         startActivity(intent);
     }
