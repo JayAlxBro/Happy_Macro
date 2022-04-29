@@ -11,5 +11,8 @@
     <color name="orange">#E96F3D</color>
     <color name="dreamscicle">#EEA76F</color>
     <color name="colorAccent">#F44336</color>
+    <color name="seek_bar_background">#87ADA5</color>
+    <color name="seek_bar_progress">@color/darkTeal</color>
+    <color name="seek_bar_secondary_progress">@color/darkTeal</color>
 
 </resources>

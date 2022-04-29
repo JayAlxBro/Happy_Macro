@@ -22,7 +22,9 @@
         <entry key="..\:/Users/rcrie/AndroidStudioProjects/Happy_Macro/app/src/main/res/layout/little_info.xml" value="0.3333333333333333" />
         <entry key="..\:/Users/rcrie/AndroidStudioProjects/Happy_Macro/app/src/main/res/menu/bottom_menu.xml" value="0.30052083333333335" />
         <entry key="..\:/Users/rcrie/AndroidStudioProjects/Happy_Macro/app/src/main/res/menu/bottom_nav_menu.xml" value="0.14427083333333332" />
+        <entry key="app/src/main/res/drawable-v24/green_rectangle.xml" value="0.1" />
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1995" />
+        <entry key="app/src/main/res/drawable-v24/teal_rectangle.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/circle.xml" value="0.254" />
         <entry key="app/src/main/res/drawable/ic_baseline_add_circle_24.xml" value="0.1485" />
         <entry key="app/src/main/res/drawable/ic_baseline_check_24.xml" value="0.1485" />
@@ -36,6 +38,9 @@
         <entry key="app/src/main/res/drawable/page_headings.xml" value="0.3045" />
         <entry key="app/src/main/res/drawable/rectangle.xml" value="0.2555" />
         <entry key="app/src/main/res/drawable/rounded_corner.xml" value="0.235" />
+        <entry key="app/src/main/res/drawable/scrollbar_thumb.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/seek_bar.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/seek_thumb.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/shadow.xml" value="0.2555" />
         <entry key="app/src/main/res/font/font.xml" value="0.4703703703703704" />
         <entry key="app/src/main/res/font/fontfamily.xml" value="0.32592592592592595" />
@@ -46,6 +51,7 @@
         <entry key="app/src/main/res/layout/activity_main_info_page.xml" value="0.11666666666666667" />
         <entry key="app/src/main/res/layout/activity_summary.xml" value="0.2345626831054688" />
         <entry key="app/src/main/res/layout/activity_tracker.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/body_gaols.xml" value="0.375" />
         <entry key="app/src/main/res/layout/content_tracker.xml" value="0.46979166666666666" />
         <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.22847011144883486" />
         <entry key="app/src/main/res/layout/fragment_first.xml" value="0.375" />
