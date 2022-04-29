@@ -38,6 +38,56 @@ public class BodyGaols extends AppCompatActivity {
 
         });
 
+        bar2.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
+            @Override
+            public void onProgressChanged(SeekBar bar2, int i, boolean b) {
+
+            }
+
+            @Override
+            public void onStartTrackingTouch(SeekBar bar2) {
+
+            }
+
+            @Override
+            public void onStopTrackingTouch(SeekBar bar2) {
+
+            }
+        });
+
+        bar3.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
+            @Override
+            public void onProgressChanged(SeekBar bar3, int i, boolean b) {
+
+            }
+
+            @Override
+            public void onStartTrackingTouch(SeekBar bar3) {
+
+            }
+
+            @Override
+            public void onStopTrackingTouch(SeekBar bar3) {
+
+            }
+        });
+
+        bar4.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
+            @Override
+            public void onProgressChanged(SeekBar bar4, int i, boolean b) {
+
+            }
+
+            @Override
+            public void onStartTrackingTouch(SeekBar bar4) {
+
+            }
+
+            @Override
+            public void onStopTrackingTouch(SeekBar bar4) {
+
+            }
+        });
 
 
 
