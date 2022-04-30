@@ -26,6 +26,13 @@
         app:tint="@color/sage"
         app:srcCompat="@android:drawable/ic_menu_edit" />
 
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="293dp"
+        android:background="@drawable/barcode"
+        android:contentDescription="@string/barcode" />
+
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
@@ -52,15 +59,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.092" />
 
-   <!-- <ImageView
-        android:layout_width="30dp"
-        android:layout_width="wrap_content"
-        android:layout_height="30dp"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@id/tracker"
-        android:layout_alignBottom="@id/tracker"
-        android:background="@drawable/user"
-        android:contentDescription="@string/account" />-->
+
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_navigation"
