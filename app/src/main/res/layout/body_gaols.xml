@@ -217,8 +217,7 @@
         android:id="@+id/textView20"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="52dp"
+
         android:layout_marginEnd="313dp"
         android:layout_marginBottom="25dp"
         android:layout_marginStart="24dp"
@@ -246,11 +245,6 @@
         app:layout_constraintStart_toEndOf="@+id/seekBar"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0" />
-        android:layout_marginTop="604dp"
-        android:layout_marginEnd="12dp"
-        android:background="#050505"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
     <View
         android:id="@+id/view4"
