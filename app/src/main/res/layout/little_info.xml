@@ -135,6 +135,7 @@
         android:layout_marginTop="7dp"
         android:layout_marginEnd="26dp"
         android:layout_marginBottom="7dp"
+        android:autofillHints=""
         android:background="#FFF9EC"
         android:backgroundTint="#FFF9EC"
         android:ems="10"
@@ -148,10 +149,10 @@
         android:visibility="visible"
         app:layout_constraintBottom_toTopOf="@+id/goalWeight"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/height"
-        tools:visibility="visible"
-        android:autofillHints="" />
+        tools:visibility="visible" />
 
     <EditText
         android:id="@+id/age"
