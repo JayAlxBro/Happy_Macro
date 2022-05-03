@@ -101,13 +101,13 @@
 
 
     <EditText
-        android:id="@+id/name"
+        android:id="@+id/newMacro"
         android:layout_width="360dp"
         android:layout_height="48dp"
         android:layout_marginStart="26dp"
         android:layout_marginTop="58dp"
         android:layout_marginEnd="26dp"
-        android:layout_marginBottom="1dp"
+        android:layout_marginBottom="7dp"
         android:background="#FFF9EC"
         android:backgroundTint="#FFF9EC"
         android:ems="10"
@@ -124,13 +124,14 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/welcome2"
-        tools:visibility="visible" />
+        tools:visibility="visible"
+        android:autofillHints="" />
 
     <EditText
         android:id="@+id/currentWeight"
         android:layout_width="360dp"
         android:layout_height="48dp"
-        android:layout_marginStart="25dp"
+        android:layout_marginStart="26dp"
         android:layout_marginTop="7dp"
         android:layout_marginEnd="26dp"
         android:layout_marginBottom="7dp"
@@ -149,7 +150,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/height"
-        tools:visibility="visible" />
+        tools:visibility="visible"
+        android:autofillHints="" />
 
     <EditText
         android:id="@+id/age"
@@ -164,16 +166,18 @@
         android:ems="10"
         android:fontFamily="@font/croissantone"
         android:hint="@string/age"
-        android:inputType="textPersonName"
+        android:inputType="numberSigned"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textColor="#FF000000"
         android:textColorHint="#546E7A"
         app:layout_constraintBottom_toTopOf="@+id/height"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/name"
-        tools:visibility="visible" />
+        app:layout_constraintTop_toBottomOf="@+id/newMacro"
+        tools:visibility="visible"
+        android:autofillHints="" />
 
     <EditText
         android:id="@+id/height"
@@ -188,16 +192,18 @@
         android:ems="10"
         android:fontFamily="@font/croissantone"
         android:hint="@string/height"
-        android:inputType="text"
+        android:inputType="number"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textColor="#FF000000"
         android:textColorHint="#546E7A"
         app:layout_constraintBottom_toTopOf="@+id/currentWeight"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/age"
-        tools:visibility="visible" />
+        tools:visibility="visible"
+        android:autofillHints="" />
 
     <EditText
         android:id="@+id/goalWeight"
@@ -212,7 +218,7 @@
         android:ems="10"
         android:fontFamily="@font/croissantone"
         android:hint="@string/goal_weight"
-        android:inputType="textPersonName"
+        android:inputType="numberSigned"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textColor="#FF000000"
