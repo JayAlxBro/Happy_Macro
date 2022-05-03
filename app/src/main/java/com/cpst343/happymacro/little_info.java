@@ -31,22 +31,22 @@ public class little_info extends AppCompatActivity {
         else{
         }
         if( TextUtils.isEmpty(etAge.getText())){
-            etAge.setError( "First name is required!" );
+            etAge.setError( "Age is required!" );
         }
         else{
         }
         if( TextUtils.isEmpty(etHeight.getText())){
-            etHeight.setError( "First name is required!" );
+            etHeight.setError( "Height in Inches is required!" );
         }
         else{
         }
         if( TextUtils.isEmpty(etCurrentWeight.getText())){
-            etCurrentWeight.setError( "First name is required!" );
+            etCurrentWeight.setError( "Current Weight is required!" );
         }
         else{
         }
         if( TextUtils.isEmpty(etGoalWeight.getText())){
-            etGoalWeight.setError( "First name is required!" );
+            etGoalWeight.setError( "Goal Weight is required!" );
         }
         else{
         }
