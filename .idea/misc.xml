@@ -35,6 +35,7 @@
         <entry key="app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.1995" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1995" />
         <entry key="app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.1995" />
+        <entry key="app/src/main/res/drawable/nav_selector.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/page_headings.xml" value="0.3045" />
         <entry key="app/src/main/res/drawable/rectangle.xml" value="0.2555" />
         <entry key="app/src/main/res/drawable/rounded_corner.xml" value="0.235" />
@@ -56,6 +57,7 @@
         <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.22847011144883486" />
         <entry key="app/src/main/res/layout/fragment_first.xml" value="0.375" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.40520833333333334" />
+        <entry key="app/src/main/res/layout/fragment_nav_bar_1.xml" value="0.15572916666666667" />
         <entry key="app/src/main/res/layout/fragment_notifications.xml" value="0.46979166666666666" />
         <entry key="app/src/main/res/layout/fragment_second.xml" value="0.46979166666666666" />
         <entry key="app/src/main/res/layout/goal.xml" value="0.335" />

@@ -140,7 +140,7 @@
         android:layout_gravity="bottom"
         android:background="#1D6D8B"
         app:itemIconTint="#0D2A55"
-        app:itemTextColor="@android:color/white"
+        app:itemTextColor="@drawable/nav_selector"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"

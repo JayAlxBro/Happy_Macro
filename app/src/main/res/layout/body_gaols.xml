@@ -63,7 +63,9 @@
         android:layout_height="30dp"
         android:background="#050505"
         tools:layout_editor_absoluteX="395dp"
-        tools:layout_editor_absoluteY="286dp" />
+        tools:layout_editor_absoluteY="286dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
 
     <SeekBar
         android:id="@+id/seekBar3"
@@ -98,7 +100,7 @@
 
 
     <SeekBar
-        android:id="@id/seekBar4"
+        android:id="@+id/seekBar4"
         android:layout_width="425dp"
         android:layout_height="24dp"
         android:layout_marginTop="7dp"
@@ -127,6 +129,7 @@
 
 
     <SeekBar
+        android:id="@+id/seekBar"
         android:layout_width="425dp"
         android:layout_height="24dp"
         android:max="120"
@@ -154,12 +157,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
+        android:layout_marginTop="47dp"
         android:fontFamily="@font/craftygirls"
         android:text="@string/muscle_mass"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="444dp" />
+        app:layout_constraintTop_toBottomOf="@+id/seekBar3" />
 
     <TextView
         android:id="@+id/textView19"
@@ -192,20 +196,23 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
+        android:layout_marginTop="62dp"
         android:fontFamily="@font/craftygirls"
         android:text="@string/exercise"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="566dp" />
+        app:layout_constraintTop_toBottomOf="@+id/seekBar4" />
 
     <View
         android:id="@+id/view6"
         android:layout_width="2dp"
         android:layout_height="40dp"
+        android:layout_marginTop="604dp"
+        android:layout_marginEnd="12dp"
         android:background="#050505"
-        tools:layout_editor_absoluteX="392dp"
-        tools:layout_editor_absoluteY="606dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <View
         android:id="@+id/view4"
@@ -232,12 +239,13 @@
         android:layout_width="100dp"
         android:layout_height="30dp"
         android:layout_marginStart="24dp"
+        android:layout_marginTop="34dp"
         android:fontFamily="@font/craftygirls"
         android:text="@string/body_fat"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="334dp" />
+        app:layout_constraintTop_toBottomOf="@+id/seekBar2" />
 
     <TextView
         android:id="@+id/textView16"
