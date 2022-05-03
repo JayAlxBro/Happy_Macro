@@ -75,4 +75,6 @@
     <string name="_3">3</string>
     <string name="turkey_breakfast_sausage">Turkey Breakfast Sausage</string>
     <string name="_366">366</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
