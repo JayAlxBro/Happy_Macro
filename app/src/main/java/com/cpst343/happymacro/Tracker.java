@@ -1,7 +1,9 @@
 package com.cpst343.happymacro;
 
+import android.content.Intent;
 import android.os.Bundle;
 
+import com.google.android.material.navigation.NavigationBarView;
 import com.google.android.material.snackbar.Snackbar;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,9 +22,31 @@ public class Tracker extends AppCompatActivity {
     private AppBarConfiguration appBarConfiguration;
     private ActivityTrackerBinding binding;
 
+    NavigationBarView bottomNavigationView;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        bottomNavigationView = findViewById(R.id.bottom_navigation);
+        bottomNavigationView.setSelectedItemId(R.id.edit);
+        bottomNavigationView.setOnItemSelectedListener(item -> {
+
+            switch (item.getItemId()) {
+                case R.id.home:
+                    startActivity(new Intent(getApplicationContext(),SummaryActivity.class));
+                    overridePendingTransition(0, 0);
+                    return true;
+                case R.id.edit:
+                    return true;
+                case R.id.check:
+                    startActivity(new Intent(getApplicationContext(), BodyGaols.class));
+                    overridePendingTransition(0, 0);
+                    return true;
+
+            }
+            return false;
+        });
 
         binding = ActivityTrackerBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());

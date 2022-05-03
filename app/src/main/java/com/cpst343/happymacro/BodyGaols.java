@@ -7,12 +7,39 @@ import android.widget.SeekBar;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.android.material.navigation.NavigationBarView;
+
 public class BodyGaols extends AppCompatActivity {
+
+    NavigationBarView bottomNavigationView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.body_gaols);
+
+        bottomNavigationView = findViewById(R.id.bottom_navigation);
+        bottomNavigationView.setSelectedItemId(R.id.check);
+        bottomNavigationView.setOnItemSelectedListener(item -> {
+
+            switch (item.getItemId()) {
+                case R.id.home:
+                    startActivity(new Intent(getApplicationContext(),SummaryActivity.class));
+                    overridePendingTransition(0, 0);
+                    return true;
+                case R.id.check:
+                    return true;
+                case R.id.edit:
+                    startActivity(new Intent(getApplicationContext(), Tracker.class));
+                    overridePendingTransition(0, 0);
+                    return true;
+
+            }
+            return false;
+        });
+
+
+
 
         SeekBar bar1 = findViewById(R.id.seekBar2);
         SeekBar bar2 = findViewById(R.id.seekBar3);
