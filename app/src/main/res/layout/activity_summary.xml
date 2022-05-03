@@ -105,7 +105,7 @@
         android:background="@drawable/ic_baseline_add_circle_24"
         android:backgroundTint="#DA0E0E"
         android:foregroundTint="#E40707"
-        android:onClick="userInfo"
+        android:onClick="trackerAddOnClick"
         android:textColor="#ED0A0A"
         android:textColorHighlight="#DF0A0A"
         android:textColorLink="#EC0505"

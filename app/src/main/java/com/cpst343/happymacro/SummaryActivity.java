@@ -41,4 +41,8 @@ public class SummaryActivity extends AppCompatActivity {
         Intent intent = new Intent(this, little_info.class);
         startActivity(intent);
     }
+    public void trackerAddOnClick(View view) {
+        Intent intent = new Intent(this, Tracker.class);
+        startActivity(intent);
+    }
 }
